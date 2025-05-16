@@ -57,9 +57,10 @@ p {
 }
 
 .logo-header {
+  font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
-  line-height: 1.16667;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #2e2f42;
@@ -75,6 +76,15 @@ p {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
+}
+
+.menu-link:hover {
+  color: #404bbf;
+}
+
+.menu-link:active {
+  color: #404bbf;
+  text-decoration-line: underline;
 }
 .address {
   font-style: normal;
@@ -93,6 +103,9 @@ p {
   color: #434455;
 }
 
+.address-link:hover {
+  color: #404bbf;
+}
 /*===main===*/
 .main {
 }
@@ -120,6 +133,10 @@ p {
   color: #fff;
 }
 
+.hero-btn:hover {
+  background: #404bbf;
+}
+
 /*===section 'About'===*/
 .about {
 }
@@ -132,4 +149,69 @@ p {
 .about-subtitle {
 }
 .about-text {
+}
+
+/*===section Our Team===*/
+.team {
+  background: #f4f4fd;
+}
+
+.team-title {
+}
+
+.team-list {
+}
+
+.team-item {
+  background: #fff;
+}
+
+.team-img {
+}
+
+.team-subtitle {
+}
+
+.team-text {
+}
+
+/*===section Portfolio===*/
+.portfolio {
+}
+
+.portfolio-title {
+}
+
+.portfolio-list {
+}
+
+.portfolio-item {
+}
+
+.portfolio-img {
+}
+
+.portfolio-subtitle {
+}
+
+.portfolio-text {
+}
+
+/*===footer===*/
+.footer {
+  background: #2e2f42;
+}
+
+.logo-footer {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #f4f4fd;
+}
+
+.footer-text {
+  color: #f4f4fd;
 }
